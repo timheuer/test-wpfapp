@@ -5,6 +5,11 @@ VisualStudioVersion = 17.5.33010.350
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp21", "WpfApp21\WpfApp21.csproj", "{B084FE54-916E-4B59-BCEA-C04EC936A879}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{F47E5004-2B0D-4A01-86D6-A52537B3313C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-2fbb0.yaml = .github\workflows\build-2fbb0.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
