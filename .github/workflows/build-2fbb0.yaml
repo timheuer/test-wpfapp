@@ -59,7 +59,7 @@ jobs:
 
     - name: MSBuild
       id: setup_msbuild_path
-      uses: microsoft/setup-msbuild@v1
+      uses: microsoft/setup-msbuild@v1.1.3
 
     - name: echo msbuild path
       run: |
